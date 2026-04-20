@@ -19,4 +19,4 @@ San Fransisco, New York, Kissimmee
 4. Diagnosed and fixed RF overfitting on small dataset (300 rows)
 
 ## Results 
-![Occupancy Drivers by City](tableau/your_image_name.png)
+![Occupancy Drivers by City](https://github.com/sheelareddydevireddy/Airbnb-Occupancy-Drivers-by-City/blob/main/Occupancy%20Drivers%20by%20City.png)
