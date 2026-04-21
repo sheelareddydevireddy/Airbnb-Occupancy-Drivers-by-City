@@ -4,7 +4,7 @@ Analyzing what drives Airbnb occupancy rates across US cities using R (EDA), Pyt
 ## Overview
 Analyzing what drives Airbnb occupancy rates across US cities using machine learning and statistical modeling.
 
-`Summary: Occupancy was partially predictable across all three cities. Strongest drivers differed by market, with host credibility and review activity appearing most consistently across locations.`
+*Summary: Occupancy was partially predictable across all three cities. Strongest drivers differed by market, with host credibility and review activity appearing most consistently across locations.*
 
 ## Cities Analyzed
 San Francisco, New York, Kissimmee
