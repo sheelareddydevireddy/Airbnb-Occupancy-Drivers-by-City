@@ -38,7 +38,9 @@ San Francisco, New York, Kissimmee
 
 ## Features consistently driving occupancy across all cities
 - `superhost` - appeared in all three LASSO feature selections, suggesting host credibility is a recurring predictor of occupancy.
-- `num_reviews` - universal signal
+- `num_reviews` - universal signal.
+*Because occupancy is bounded between 0 and 1, any positive relationship with review count is naturally limited and may flatten as listings approach high occupancy levels.*
+
 - `listing_type` - Room type matters 
 
 ## What varies by city
