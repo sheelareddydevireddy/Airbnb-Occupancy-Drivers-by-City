@@ -20,7 +20,7 @@ San Francisco, New York, Kissimmee
 3. Boruta for feature selection → Random Forest (looking beyond linear relationships)
 4. Diagnosed and fixed RF overfitting on small dataset (300 rows)
 
-## Results by City
+## Results by City 
 | City | Model | Test R² |
 |------|-------|---------|
 | San Francisco | Linear Regression (Lasso) | 0.21 |
@@ -31,15 +31,15 @@ San Francisco, New York, Kissimmee
 | Nashville | Random Forest (Boruta) | 0.58 |
 
 ## Key Findings
-- **San Francisco** — Only 4 features selected by Boruta. Lower model performance overall - data size may be a limiting factor
-- **New York** — Best RF performance (0.60), length of stay features were highly predictive
-- **Kissimmee** — LR and RF nearly identical (0.58), more features in LR gave no additional predictive power
+- **San Francisco** - Only 4 features selected by Boruta. Lower model performance overall - data size may be a limiting factor
+- **New York** - Best RF performance (0.60), length of stay features were highly predictive
+- **Kissimmee** - LR and RF nearly identical (0.58), more features in LR gave no additional predictive power
 
 
 ## Features consistently driving occupancy across all cities
-- `superhost` — appeared in all three markets, suggesting host credibility is a recurring predictor of occupancy.
-- `num_reviews` — universal signal
-- `listing_type` — Room type matters 
+- `superhost` - appeared in all three markets, suggesting host credibility is a recurring predictor of occupancy.
+- `num_reviews` - universal signal
+- `listing_type` - Room type matters 
 
 ## What varies by city
 - New York uniquely selected `length_of_stay` metrics → suggesting booking duration patterns are more informative in this market.
