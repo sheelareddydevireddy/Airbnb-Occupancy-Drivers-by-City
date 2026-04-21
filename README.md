@@ -43,7 +43,7 @@ San Francisco, New York, Kissimmee
 
 ## What varies by city
 - New York uniquely selected `length_of_stay` metrics → suggesting booking duration patterns are more informative in this market.
-- San Francisco driven purely by credential and loction-driven signals (longitude, reviews, ratings)
+- San Francisco driven purely by credential and location-driven signals (longitude, reviews, ratings)
 - Kissimmee, simpler feature structure, less benefit from extra complexity
 
 ## Does superhost status matter more in New York or San Francisco?
