@@ -50,9 +50,9 @@ San Francisco, New York, Kissimmee
 Permutation importance for superhost was similar in both New York City and San Francisco, with a slightly higher importance in NYC.
 
 ## Limitations
-- Each city had only ~300 listings, limiting stability.
-- One-hot encoded categorical variables can make feature selection and linear model estimates less stable.
-- Selected predictors are associated with occupancy, not proven to cause higher or lower occupancy.
+- Each city had only ~300 listings, limiting stability
+- One-hot encoded categorical variables can make feature selection and linear model estimates less stable
+- Selected predictors are associated with occupancy, not proven to cause higher or lower occupancy
 - Feature importance does not imply causation
 
 ## Data Source
