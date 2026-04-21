@@ -37,7 +37,7 @@ San Francisco, New York, Kissimmee
 
 
 ## Features consistently driving occupancy across all cities
-- `superhost` - appeared in all three markets, suggesting host credibility is a recurring predictor of occupancy.
+- `superhost` - appeared in all three LASSO feature selections, suggesting host credibility is a recurring predictor of occupancy.
 - `num_reviews` - universal signal
 - `listing_type` - Room type matters 
 
@@ -45,6 +45,15 @@ San Francisco, New York, Kissimmee
 - New York uniquely selected `length_of_stay` metrics → suggesting booking duration patterns are more informative in this market.
 - San Francisco driven purely by credential and loction-driven signals (longitude, reviews, ratings)
 - Kissimmee, simpler feature structure, less benefit from extra complexity
+
+## Does superhost status matter more in New York or San Francisco?
+Permutation importance for superhost was similar in both New York City and San Francisco, with a slightly higher importance in NYC.
+
+## Limitations
+- Each city had only ~300 listings, limiting stability.
+- One-hot encoded categorical variables can make feature selection and linear model estimates less stable.
+- Selected predictors are associated with occupancy, not proven to cause higher or lower occupancy.
+- Feature importance does not imply causation
 
 ## Data Source
 https://www.airroi.com/
